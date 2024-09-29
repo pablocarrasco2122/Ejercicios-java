@@ -8,11 +8,11 @@ public class ArregloPorConsola {
         Scanner sc = new Scanner(System.in);
 
         // Mensaje al usuario
-        System.out.println("Pulsa cualquier tecla para continuar");
+        System.out.println("introduzca el tamaño del arreglo");
         String mitecla = sc.nextLine();
 
         // Pregunta al usuario el tamaño del arreglo
-        System.out.println("Ahora introduzca el tamaño del arreglo:");
+        System.out.println("Ahora introduzca los numeros que van a ser almacenados:");
         int size = Integer.parseInt(mitecla);
 
         // Crear el arreglo con el tamaño especificado
@@ -32,6 +32,4 @@ public class ArregloPorConsola {
 
       sc.close();
     }
-}
-
-	
+}	
